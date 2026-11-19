@@ -16,18 +16,31 @@
 
 // let vs var vs const
 
+// let x = 10;
+// // let ko value can change through the program
+// console.log(x);
+
+// const s = 30;
+// // const ko value can not change through the program
+// console.log(s);
+
+// var y = 20;
+// // var ko value can change through the program
+// console.log(y);
 
 
-let x = 10;
-// let ko value can change through the program
-console.log(x);
+doSomething();
 
-const s = 30;
-// const ko value can not change through the program
-console.log(s);
+function doSomething() {
+  //function declared.
 
-var y = 20;
-// var ko value can change through the program
+//   var x = 6;
+//   console.log(x);
+    return x;
+}
+var x = 7;
+var y = doSomething();
 console.log(y);
+console.log(x);
 
 
