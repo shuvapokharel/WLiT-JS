@@ -63,23 +63,23 @@
 // }
 
 
-let x = 75;
-console.log(x > 50 ? "A" : "B");
+// let x = 75;
+// console.log(x > 50 ? "A" : "B");
 
-let grade = 10;
+let grade = 76;
 // 90 or above A
 // 80 or above B
 // 70 or above C
 
-// if (grade >= 90) {
-//   console.log("Grade: A");
-// } else if (grade >= 80) {
-//   console.log("Grade: B");
-// } else if (grade >= 70) {
-//   console.log("Grade: C");
-// } else {
-//   console.log("Grade: Fail");
-// }
+if (grade >= 90) {
+  console.log("Grade: A");
+} else if (grade >= 80) {
+  console.log("Grade: B");
+} else if (grade >= 70) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: Fail");
+}
 
-// console.log(grade > 80 ? "A" : "B");
+console.log(grade > 80 ? "A" : "B");
 
