@@ -66,20 +66,24 @@
 // let x = 75;
 // console.log(x > 50 ? "A" : "B");
 
-let grade = 76;
-// 90 or above A
-// 80 or above B
-// 70 or above C
+// SWITCH CASE
 
-if (grade >= 90) {
-  console.log("Grade: A");
-} else if (grade >= 80) {
-  console.log("Grade: B");
-} else if (grade >= 70) {
-  console.log("Grade: C");
-} else {
-  console.log("Grade: Fail");
+let x = 1;
+
+switch (x) {
+  case 1:
+    console.log("Printed 1");
+    break;
+  case 2:
+    console.log("Printed 2");
+    break;
+  case 3:
+    console.log("Printed 3");
+    break;
+  case 6:
+    console.log("Printed 6");
+    break;
+  default:
+    console.log("Number not found");
+    break;
 }
-
-console.log(grade > 80 ? "A" : "B");
-
