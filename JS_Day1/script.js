@@ -58,13 +58,13 @@
  
 // operators
 
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
 
 
-// let x = 75;
-// console.log(x > 50 ? "A" : "B");
+let x = 75;
+console.log(x > 50 ? "A" : "B");
 
 let grade = 10;
 // 90 or above A
