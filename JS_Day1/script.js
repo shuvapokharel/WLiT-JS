@@ -68,22 +68,28 @@
 
 // SWITCH CASE
 
-let x = 1;
+// let x = 1;
 
-switch (x) {
-  case 1:
-    console.log("Printed 1");
-    break;
-  case 2:
-    console.log("Printed 2");
-    break;
-  case 3:
-    console.log("Printed 3");
-    break;
-  case 6:
-    console.log("Printed 6");
-    break;
-  default:
-    console.log("Number not found");
-    break;
+// switch (x) {
+//   case 1:
+//     console.log("Printed 1");
+//     break;
+//   case 2:
+//     console.log("Printed 2");
+//     break;
+//   case 3:
+//     console.log("Printed 3");
+//     break;
+//   case 6:
+//     console.log("Printed 6");
+//     break;
+//   default:
+//     console.log("Number not found");
+//     break;
+// }
+
+// for loop
+
+for (let x = 0; x < 8; x+=2) {
+  console.log(x);
 }
