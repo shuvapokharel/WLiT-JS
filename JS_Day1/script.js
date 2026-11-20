@@ -90,6 +90,13 @@
 
 // for loop
 
-for (let x = 0; x < 8; x+=2) {
+// for (let x = 0; x < 8; x+=2) {
+//   console.log(x);
+// }
+
+// while loop 
+ let x = 22;
+while (x < 28) {
   console.log(x);
+  x++;
 }
